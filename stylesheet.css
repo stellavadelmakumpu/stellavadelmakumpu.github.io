@@ -1,0 +1,77 @@
+body {color: rgb(0, 0, 0); 
+background-color: rgb(185, 178, 169);
+
+
+}
+
+
+
+
+
+ header{background-color:rgb(186, 180, 180);
+margin:left;/*lohkon keskitys*/
+padding:20px;/*tyhjä tila reunan ja sisällön väliin*/
+box-shadow: 8px 8px 8px rgb (12, 12, 12);/*heittovarjo, oikea ja alas*/
+/* border-radius: 30px;/*kulman pyöristys*/
+height: auto;
+display: flex;
+align-items: center;
+
+
+}
+
+
+
+.kuva1{ max-width: 600px;
+align-items: right;
+justify-items: right;
+padding-right: 0%;
+
+}
+
+
+
+
+
+h1{
+margin:0;
+height: auto;
+
+}
+
+
+
+
+
+a {max-width: 300px; 
+color: black;
+text-align: center;  }
+
+
+nav a{
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+  }
+
+
+main{ width:40% ;
+      height:0%;
+align-items: center;
+      padding:0%;
+
+
+
+
+}
+
+
+
+h3 {max-width: 800px; 
+background-color:rgb(209, 142, 142);
+
+border:3px rgb(219, 147, 195)solid;/*reunus*/
+padding:20px;/*tyhjä tila reunan ja sisällön väliin*/
+box-shadow: 8px 8px 8px rgb (12, 12, 12);/*heittovarjo, oikea ja alas*/
+/* border-radius: 30px;/*kulman pyöristys*/}
