@@ -1,0 +1,66 @@
+body {color: rgb(0, 0, 0); 
+background-color: rgb(185, 178, 169);
+
+
+}
+
+
+/* Header */
+header{
+    background-color: lightgray;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+
+
+.kuva1{ max-width: 600px;
+align-items: right;
+justify-items: right;
+padding-right: 0%;
+
+}
+
+
+
+h1{
+margin-bottom:20px;
+font-size: 48px;
+
+}
+
+
+
+
+
+a {max-width: 300px; 
+color: black;
+text-align: center;  }
+
+
+.linkkirivi {
+    display: flex;
+    justify-content: space-between; /* jakaa linkit tasaisesti */
+     width: 60%;;               /* voit säätää leveyttä */
+    margin: 0 auto;                 /* keskittää koko rivin */
+    margin-top: 20px;
+}
+
+
+.linkkirivi a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+main{ max-width:700% ;
+      height:0%;
+align-items: center;
+      padding:40px;
+
+
+
+
+}
+
