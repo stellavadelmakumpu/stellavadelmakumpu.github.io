@@ -1,0 +1,153 @@
+body {color: rgb(0, 0, 0); 
+background-color: rgb(185, 178, 169);
+
+
+}
+
+
+/* Header */
+header{
+    background-color: lightgray;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+
+
+
+
+
+
+
+h1{
+  margin-top: 40px;
+  margin-left: 450px;
+  font-size: 48px;
+}
+
+
+
+
+a {max-width: 20px; 
+color: black;
+text-align: center;  }
+
+
+.linkkirivi {
+    display: flex;
+    justify-content: space-between; /* jakaa linkit tasaisesti */
+    max-width: 600px;               /* voit säätää leveyttä */
+    margin: 0 auto;                 /* keskittää koko rivin */
+    margin-top: 20px;
+}
+
+.linkkirivi a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+
+.yhteystiedot {  
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; /* siirtää koko laatikkoa alaspäin */
+    gap: 40px; /* väli CV:n ja sähköpostin väliin */
+
+}
+
+/* CV - linkki */
+.cv-link{ 
+    display: block;
+    text-decoration: none;
+    width: 100%;   /* vie koko rivin → siirtyy alle */
+    margin-top: 50px;   /* siirtää alaspäin */
+    font-size: 30px;
+    margin-right: 450px;
+    padding-right: 30px;
+    
+}
+/* Sähköpostirivi */
+.email {
+ margin-right: 200px; 
+ display: flex;
+ align-items: center;
+ gap: 10px; /* väli kuvan ja tekstin väliin */
+ padding-top: 50px;
+
+}
+
+/* Kuvakkeen koko */
+.email img {
+    width: 30px;
+    height: auto;
+}
+/* Sähköpostiteksti */
+.email a { 
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* puhelinrivi */
+.puhelin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+/* Kuvakkeen koko */
+.puhelin img {
+    width: 30px;
+    height: auto;
+}
+/* puhelinteksti */
+.puhelin a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+main{ max-width:700% ;
+      height:0%;
+align-items: center;
+      padding:40px;
+
+
+
+
+}
+
+@media (max-width: 600px) {
+
+    /* Otsikko keskelle ja pienemmäksi */
+    h1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    /* Navigaatio pystyriviksi */
+    .linkkirivi {
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100%;
+    }
+
+    /* Yhteystiedot allekkain */
+    .yhteystiedot {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Kuvakkeet pienemmiksi */
+    .email img,
+    .puhelin img {
+        width: 24px;
+    }
+}
